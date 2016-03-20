@@ -1,0 +1,19 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1435195345801,
+      "name": "Missed call",
+      "matchPackage": "com.android.server.telecom",
+      "matchIdRegex": "1",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "^\\QMissed call\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_ from _TEXT_",
+      "exampleTitle": "Missed call",
+      "exampleText": "Unknown"
+   }
+]

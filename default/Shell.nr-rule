@@ -1,0 +1,21 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10017,
+      "name": "Bug report captured",
+      "matchPackage": "com.android.shell",
+      "matchIdRegex": "0",
+      "matchTagRegex": "Shell",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "Bug report captured",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TICKER_",
+      "exampleTicker": "Bug report captured",
+      "exampleTitle": "Bug report captured",
+      "exampleText": "Touch to share your bug report"
+   }
+]

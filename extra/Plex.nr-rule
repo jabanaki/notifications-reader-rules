@@ -1,0 +1,30 @@
+[
+   {
+      "sourceId": 1447032119362,
+      "name": "Playing on Apple TV",
+      "matchPackage": "com.plexapp.android",
+      "matchTickerRegex": "^\\QPlaying on Apple TV\\E.*",
+      "matchTitleRegex": "^$",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 99,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Playing on Apple TV"
+   },
+   {
+      "sourceId": 1448285973644,
+      "name": "Plex",
+      "matchPackage": "com.plexapp.android",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "^$",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TICKER_",
+      "exampleTicker": "Alice in Chains - Hollow"
+   }
+]

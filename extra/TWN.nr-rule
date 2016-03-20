@@ -1,0 +1,19 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1455379858285,
+      "name": "Weather Alert",
+      "matchPackage": "com.pelmorex.WeatherEyeAndroid",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QAlert:\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "The Weather Network _TICKER_",
+      "exampleTicker": "Alert: Extreme Cold Warning for Ottawa",
+      "exampleTitle": "The Weather Network: Ottawa",
+      "exampleText": "Alert: Extreme Cold Warning for Ottawa"
+   }
+]

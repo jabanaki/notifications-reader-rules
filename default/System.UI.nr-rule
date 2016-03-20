@@ -1,0 +1,52 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1455851898838,
+      "name": "Battery is low",
+      "matchPackage": "com.android.systemui",
+      "matchTagRegex": "low_battery",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Battery is low",
+      "exampleText": "15% remaining"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10018,
+      "name": "Saving screenshot…",
+      "matchPackage": "com.android.systemui",
+      "matchTickerRegex": "^\\QSaving screenshot\\E.*",
+      "matchTitleRegex": "^\\QSaving screenshot\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TICKER_",
+      "exampleTicker": "Saving screenshot… ",
+      "exampleTitle": "Saving screenshot…",
+      "exampleText": "Screenshot is being saved."
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1411242949902,
+      "name": "Screenshot captured",
+      "matchPackage": "com.android.systemui",
+      "matchTickerRegex": "^\\QSaving screenshot\\E.*",
+      "matchTitleRegex": "^\\QScreenshot captured\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_",
+      "exampleTicker": "Saving screenshot… ",
+      "exampleTitle": "Screenshot captured.",
+      "exampleText": "Touch to view your screenshot."
+   }
+]

@@ -1,0 +1,18 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1437238014606,
+      "name": "Updating Text-To-Speech data",
+      "matchPackage": "com.google.android.tts",
+      "matchIdRegex": "16611",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_",
+      "exampleTitle": "Updating Text-To-Speech data"
+   }
+]

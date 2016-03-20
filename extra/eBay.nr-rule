@@ -1,0 +1,53 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1441796464294,
+      "name": "Item marked as shipped",
+      "matchPackage": "com.ebay.mobile",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "^\\QItem marked as shipped\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Item marked as shipped: Shipped: Google Nexus 5X",
+      "exampleTitle": "Item marked as shipped",
+      "exampleText": "Shipped: Google Nexus 5X"
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1441824897917,
+      "name": "Message received",
+      "matchPackage": "com.ebay.mobile",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "^\\QMessage received\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Message received: New message from: jabanaki",
+      "exampleTitle": "Message received",
+      "exampleText": "New message from: jabanaki"
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1444350566740,
+      "name": "Your session has expired",
+      "matchPackage": "com.ebay.mobile",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "^\\QPlease login\\E.*",
+      "matchTextRegex": "^\\QSign in again to receive notifications\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Your session has expired. Please sign in again.",
+      "exampleTitle": "Please login",
+      "exampleText": "Sign in again to receive notifications"
+   }
+]

@@ -1,0 +1,14 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10037,
+      "name": "Camera",
+      "matchPackage": "com.google.android.GoogleCamera",
+      "matchTitleRegex": "^\\QCamera\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "exampleTitle": "Camera"
+   }
+]

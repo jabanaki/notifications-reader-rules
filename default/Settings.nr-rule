@@ -1,0 +1,37 @@
+[
+   {
+     "source": "jabanaki.default",
+      "sourceId": 1446728570334,
+      "name": "Message Access",
+      "matchPackage": "com.android.settings",
+      "matchTagRegex": "Message Access",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTicker": "MYLAPTOP wants to access your messages. Give access to MYLAPTOP?",
+      "exampleTitle": "Message access request",
+      "exampleText": "MYLAPTOP wants to access your messages. Give access to MYLAPTOP?"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1456924497298,
+      "name": "Bluetooth pairing request",
+      "matchPackage": "com.android.settings",
+      "matchTickerRegex": "^\\QBluetooth pairing request\\E.*",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TICKER_",
+      "exampleTicker": "Bluetooth pairing request",
+      "exampleTitle": "Pairing request",
+      "exampleText": "Touch to pair with BTHEADSET"
+   }
+ ]

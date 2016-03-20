@@ -1,0 +1,38 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1453730472842,
+      "name": "New SMS",
+      "matchPackage": "com.google.android.apps.messaging",
+      "matchTagRegex": "^\\Qcom.google.android.apps.messaging:sms:\\E.*",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Jabanaki: have you tried Notifications reader yet",
+      "exampleTitle": "Jababaki",
+      "exampleText": "have you tried Notifications reader yet"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1454700702004,
+      "name": "New SMS",
+      "matchPackage": "com.google.android.apps.messaging",
+      "matchTagRegex": "com.google.android.apps.messaging:sms:",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchMultiline": true,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Jabanaki: have you tried Notifications reader yet",
+      "exampleTitle": "2 new messages",
+      "exampleLine1": "Jabanaki have you tried Notifications reader yet",
+      "exampleLine2": "John  Voicemail   1 New       0 Urgent"
+   }
+]

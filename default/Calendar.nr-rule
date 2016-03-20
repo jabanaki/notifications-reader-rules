@@ -1,0 +1,35 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10025,
+      "name": "Calendar Reminder",
+      "matchPackage": "com.google.android.calendar",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "Calendar reminder. _TITLE_. _TEXT_",
+      "exampleTicker": "Cardio Kickboxing",
+      "exampleTitle": "Cardio Kickboxing",
+      "exampleText": "8:40–9:30 PM"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10026,
+      "name": "Calendar Reminder",
+      "matchPackage": "com.google.android.calendar",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "Calendar reminder. _TITLE_. _TEXT_",
+      "description": "Reminder ticker is blank. Disable to prevent repeat notifications",
+      "exampleTitle": "Cardio Kickboxing",
+      "exampleText": "6:45 pm"
+   }
+]

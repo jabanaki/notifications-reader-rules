@@ -1,0 +1,51 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1455986432528,
+      "name": "New message",
+      "matchPackage": "com.zynga.wwf2.free",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": ".*\\Qsent you a message.\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Words With Friends",
+      "exampleText": "jabanaki sent you a message."
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1456175227705,
+      "name": "Your move",
+      "matchPackage": "com.zynga.wwf2.free",
+      "matchIdRegex": "0",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QYour Move with\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Words With Friends",
+      "exampleText": "Your Move with jabanaki."
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1438117307066,
+      "name": "Word of the day",
+      "matchPackage": "com.zynga.wwf2.free",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QWord of the Day\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_, _TEXT_",
+      "exampleTitle": "Words With Friends",
+      "exampleText": "Word of the Day: MAKO"
+   }
+]

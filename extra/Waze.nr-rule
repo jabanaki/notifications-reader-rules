@@ -1,0 +1,35 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1447346359543,
+      "name": "Waze Push Notifications",
+      "matchPackage": "com.waze",
+      "matchTagRegex": "Push Notifications",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_",
+      "exampleTitle": "Waze",
+      "exampleText": "Know when your commute is worse than usual. Add your work address now."
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1454290919514,
+      "name": "Waze",
+      "matchPackage": "com.waze",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "",
+      "exampleTicker": "Waze",
+      "exampleTitle": "Waze",
+      "exampleText": "Running. Tap to open."
+   }
+]

@@ -1,0 +1,48 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1449575770113,
+      "name": "Downloading offline areas",
+      "matchPackage": "com.google.android.apps.maps",
+      "matchIdRegex": "6",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_",
+      "exampleTitle": "Downloading offline areas",
+      "exampleText": "Downloading Home... 0%"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1449575768888,
+      "name": "Updating offline areas",
+      "matchPackage": "com.google.android.apps.maps",
+      "matchIdRegex": "6",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Updating offline areas",
+      "exampleTitle": "Updating offline areas"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10022,
+      "name": "Maps",
+      "matchPackage": "com.google.android.apps.maps",
+      "matchMultiline": false,
+      "matchOrder": 101,
+      "enabled": false,
+      "autoDismiss": false,
+      "exampleTitle": "Somewhereville",
+      "exampleText": "Head northwest on Old Country Road"
+   }
+]

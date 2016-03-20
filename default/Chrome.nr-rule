@@ -1,0 +1,50 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1456079475323,
+      "name": "Download",
+      "matchPackage": "com.android.chrome",
+      "matchTagRegex": "SystemDownloadNotifier",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_ _TEXT_",
+      "exampleTitle": "Evernote.nr-rule",
+      "exampleText": "Download complete."
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1436654343216,
+      "name": "Blank notification",
+      "matchPackage": "com.android.chrome",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "^$",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": ""
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1435288450560,
+      "name": "Media Notification",
+      "matchPackage": "com.android.chrome",
+      "matchTagRegex": "MediaNotificationService",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TEXT_",
+      "exampleTitle": "Chrome",
+      "exampleText": "Audio is playing. Touch to return to http:\/\/jabanaki.com"
+   }
+]

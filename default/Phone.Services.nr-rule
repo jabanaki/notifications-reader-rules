@@ -1,0 +1,35 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10013,
+      "name": "Missed call",
+      "matchPackage": "com.android.phone",
+      "matchIdRegex": "1",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "^\\QMissed call\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TICKER_",
+      "exampleTicker": "Missed call from John Doe",
+      "exampleTitle": "Missed call",
+      "exampleText": "John Doe"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10014,
+      "name": "New voicemail",
+      "matchPackage": "com.android.phone",
+      "matchTitleRegex": "New voicemail",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_",
+      "exampleTitle": "New voicemail",
+      "exampleText": "Dial +1-555-530-1103"
+   }
+]

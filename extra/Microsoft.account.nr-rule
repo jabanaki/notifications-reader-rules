@@ -1,0 +1,19 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1449888244872,
+      "name": "Identity verification request",
+      "matchPackage": "com.microsoft.msa.authenticator",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchMultiline": true,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TICKER_",
+      "exampleTicker": "Identity verification request",
+      "exampleTitle": "John Smith",
+      "exampleLine1": "John Smith (john.smith@example.com)",
+      "exampleLine2": "Request XX99X"
+   }
+]

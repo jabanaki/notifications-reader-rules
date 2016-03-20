@@ -1,0 +1,53 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10001,
+      "name": "Notifications Reader Active",
+      "matchPackage": "jabanaki.notificationreader",
+      "matchIdRegex": "1",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QNotifications Reader is active\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TEXT_",
+      "exampleTitle": "Notifications Reader",
+      "exampleText": "Notifications Reader is active"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1456608799949,
+      "name": "Notifications Reader Muted",
+      "matchPackage": "jabanaki.notificationreader",
+      "matchIdRegex": "1",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QNotifications Reader is muted\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_TEXT_",
+      "exampleTitle": "Notifications Reader",
+      "exampleText": "Notifications Reader is muted"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1435192001927,
+      "name": "Notifications Reader Paused",
+      "matchPackage": "jabanaki.notificationreader",
+      "matchIdRegex": "1",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QNotifications Reader is paused\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_TEXT_",
+      "exampleTitle": "Notifications Reader",
+      "exampleText": "Notifications Reader is paused"
+   }
+]

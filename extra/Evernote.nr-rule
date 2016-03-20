@@ -1,0 +1,50 @@
+[
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1451653200553,
+      "name": "Reminder",
+      "matchPackage": "com.evernote",
+      "matchTickerRegex": "(?s).+",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_ Reminder. _TITLE_",
+      "exampleTicker": "Renew annual subscription",
+      "exampleTitle": "Renew annual subscription"
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1447426848845,
+      "name": "Evernote notice",
+      "matchPackage": "com.evernote",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_. _TEXT_",
+      "exampleTitle": "Make paper searchable",
+      "exampleText": "Snap a photo of something with text."
+   },
+   {
+      "source": "jabanaki.extra",
+      "sourceId": 1453556715342,
+      "name": "Subscription Extended",
+      "matchPackage": "com.evernote",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "^\\QSubscription Extended\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TEXT_",
+      "exampleTitle": "Subscription Extended",
+      "exampleText": "Your Premium subscription has been extended."
+   }
+]

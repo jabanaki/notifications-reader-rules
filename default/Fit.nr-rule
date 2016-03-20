@@ -1,0 +1,18 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1414888458589,
+      "name": "You met your goal",
+      "matchPackage": "com.google.android.apps.fitness",
+      "matchIdRegex": "1",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_",
+      "exampleTitle": "You met your goal",
+      "exampleText": "Nice work!"
+   }
+]

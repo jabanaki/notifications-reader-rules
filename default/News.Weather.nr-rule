@@ -1,0 +1,20 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1446473110576,
+      "name": "News & Weather",
+      "matchPackage": "com.google.android.apps.genie.geniewidget",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchSubtextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Google News & Weather",
+      "exampleText": "Something interesting happened today",
+      "exampleSubtext": "Reuters Canada"
+   }
+]

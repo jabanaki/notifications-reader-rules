@@ -1,0 +1,63 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1415359800264,
+      "name": "Alarm",
+      "matchPackage": "com.google.android.deskclock",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "\\QAlarm\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Alarm",
+      "exampleText": "Fri 6:30 AM"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10029,
+      "name": "Timer",
+      "matchPackage": "com.google.android.deskclock",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "\\QTimer\\E.*",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_",
+      "exampleTitle": "Timer",
+      "exampleText": "Less than a minute remaining"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10030,
+      "name": "Empty notification",
+      "matchPackage": "com.google.android.deskclock",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "^$",
+      "matchTextRegex": "^$",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 10028,
+      "name": "Upcoming alarm",
+      "matchPackage": "com.google.android.deskclock",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "Upcoming alarm",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": false,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_. _TEXT_.",
+      "exampleTitle": "Upcoming alarm",
+      "exampleText": "Sun 6:16 pm"
+   }
+]

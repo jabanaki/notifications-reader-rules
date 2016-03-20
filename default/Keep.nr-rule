@@ -1,0 +1,34 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1443387637608,
+      "name": "Reminder",
+      "matchPackage": "com.google.android.keep",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "^\\QToday,\\E.*",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_APPNAME_. _TITLE_ _TEXT_",
+      "exampleTitle": "Do something",
+      "exampleText": "Today, 5:00 PM"
+   },
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1416286386175,
+      "name": "Shared note",
+      "matchPackage": "com.google.android.keep",
+      "matchTagRegex": "^\\Qshared_note\\E.*",
+      "matchTitleRegex": "(?s).+",
+      "matchMultiline": true,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_",
+      "exampleTitle": "Jabanaki Software shared a note with you",
+      "exampleLine1": "Notifications reader",
+      "exampleLine2": "Update icon"
+   }
+]

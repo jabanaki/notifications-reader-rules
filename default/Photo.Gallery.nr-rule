@@ -1,0 +1,19 @@
+[
+   {
+      "source": "jabanaki.default",
+      "sourceId": 1416233733848,
+      "name": "Saving Image",
+      "matchPackage": "com.google.android.gallery3d",
+      "matchIdRegex": "0",
+      "matchTickerRegex": "^$",
+      "matchTitleRegex": "(?s).+",
+      "matchTextRegex": "(?s).+",
+      "matchMultiline": false,
+      "matchOrder": 100,
+      "enabled": true,
+      "autoDismiss": false,
+      "sayPattern": "_TITLE_",
+      "exampleTitle": "Saving Image",
+      "exampleText": "Processing..."
+   }
+]
